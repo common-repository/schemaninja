@@ -1,0 +1,426 @@
+.settings-main-content h4{
+	    font-size: 15px;
+    margin:0.5em 0em;
+}
+.settings-main-content input[type=button],[type=submit]{
+	color: #fff;
+    background-color: #2196f3;
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+    line-height: 2;
+    margin: 5px 5px 5px 10px;
+}
+.settings-main-content input[type=text],textarea{
+    min-width: 250px;
+    border: 1px solid #ccc;
+    color: #494949;
+    padding: 5px;
+    margin:5px 15px 5px 0px;
+}
+.settings-main-content label{
+    color: #5d5d5d;
+	 font-size: 15px;
+    font-weight: 400;
+    font-family: sans-serif;
+	display: block;
+	cursor:default;
+}
+.help-text{
+	font-size: 12px;
+    display: block;
+    color: #7c7c7c;
+}
+#sch_dashboard table{
+	    width: 100%;	
+}
+#sch_dashboard th{
+	    color: #3498db;
+    border-bottom: 2px solid #FF5722;
+    text-align: left;
+    padding: 5px;
+}
+#sch_dashboard td{
+	padding: 5px !important;
+    border: 1px solid #d3d3d3;
+}
+.sch_show_values i{
+color: #656565;
+padding-right: 3px;
+}
+.sch_line{
+	 border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+.sch_conv_box{
+	padding: 30px 20px 20px 20px;
+    border-radius: 5px;
+    float: left;	
+    margin-left: 25px;
+    width: 40%;
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    font-size: 18px;
+    font-family: sans-serif;
+    height: 132px;
+}
+.sch_conv_value{
+	    display: block;
+    font-size: 25px;
+    font-weight: 600;
+    color: #2196f3;
+    text-align: center;
+}
+.sch_conv_text{
+	display: block;
+    font-size: 14px;
+    color: #414141;
+    text-align: center;
+}
+.sch_conv{
+	color: #2196f3 !important;
+    margin-left: -20px;
+    font-size: 33px !important;
+    line-height: 3 !important;
+}
+.sch_conv_per{
+	font-size: 18px;color: #00BCD4;
+}
+.sch_conv_per_text{
+	    color: #2196f3 !important;
+    font-size: 11px !important;
+    margin: 50px 0px 0px 20px;
+}
+.sch_conv_h2{
+	 text-align: center;
+    margin: 24px 10px;
+    text-transform: uppercase;
+    color: #5c5c5c;
+    font-weight: 600;
+    font-family: monospace;
+}
+.sch_analytic{
+	width: 29%;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #f1f1f1;
+    padding: 25px;
+	margin: 15px;
+}
+.sch_analytic h3{
+    margin: 0px;
+    font-size: 21px;
+}
+.sch_analytic p{
+    margin: 0px;
+    color: #858585;
+	}
+.sch_analytic_icon{
+width: 27%;
+    display: block;
+    font-size: 23px;
+    text-align: center;
+    padding: 12px 0px;
+    border-radius: 3px;
+    margin-right: 6px;
+    color: #fff;
+    background-color: #e74c3c;
+    float: left;
+}
+.sch_doughnut{
+	    width: 95%;
+    height:325px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #f1f1f1;
+    padding: 25px;
+    margin: 15px;
+}
+.sch_doughnut_left{
+width:75%;float:left;
+}
+.sch_doughnut_right{
+width:20%;float: right;
+}
+.sch_doughnut_legands{
+padding: 0px 30px;margin-right: 5px;zoom: 75%;
+}
+.sch_graph{
+		    width: 95%;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #f1f1f1;
+    padding: 25px;
+    margin: 15px;	
+}
+.sch_graph h3{
+width: 53%;
+    float: left;
+	    margin-top: 11px;	
+}
+.sch_graph .daterange_icon{
+    margin-left: -18px;
+    position: relative;
+    left: -25px;
+}
+.sch_graph [type=text]{
+border-radius: 5px 0px 0px 5px;border: 1px solid #2196f3;line-height: 1.7;
+}
+.sch_graph [type=submit]{
+    border: 0px solid #2196f3;
+    border-radius: 0px;
+    margin-left: -19px;
+    line-height: 2.1;
+    width: 65px;	
+}
+.sch_headding{
+    width: 95%;
+    margin-left: 16px;
+    background-color: #fff;
+    padding: 14px 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px 5px 0px 0px;
+    color: #686868;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px #f1f1f1;
+}
+.settings-container {
+    display: block;
+    margin: 20px;
+    position: relative;
+    z-index: 0;
+}
+.settings-container .button {
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    margin: 4px 0 4px;
+}
+.settings-header {
+	background: #2196F3;
+	color: #fff;
+	height: 70px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    -moz-box-shadow: inset 0 1px 0 #fff;
+    -webkit-box-shadow: inset 0 1px 0 #fff;
+    box-shadow: inset 0 1px 0 #b5b5b5;
+}
+.settings-header-button {
+	float:right;
+    margin: 10px 20px;
+}
+.settings-header-logo img {
+	    width: 200px;
+    margin-left: 40px;
+}
+.settings-body {
+	width: 100%;
+	background: #fff;
+}
+.settings-body .settings-navigation {
+	float: left;
+	width: 24.6%;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+    background: #f1f1f1;
+    color: #000;
+}
+#sch_save_btn{	
+position: fixed;
+    right: -5px;
+    top: 83px;
+    z-index: 100;
+    border: 1px solid #F44336;
+    background-color: #F44336;
+    width: 85px;
+    border-radius: 5px 0px 0px 5px;
+}
+.settings-body .settings-main-content {
+	float: left;
+    width: 75%;
+	border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background: #f5f5f5;
+    color: #000;
+}
+.settings-main-content .rclist{
+	margin-left: 30px;
+    box-shadow: inset 0px 0px 0px 0px;
+    height: 28px;
+    border: 1px solid #2196f3;
+}
+.settings-main-content .addrc{
+	margin: 1px -5px !important;
+    position: absolute;
+    border: 0px !important;
+    border-radius: 0px !important;
+    height: 28px;
+    line-height: 1 !important;
+    width: 50px;
+}
+.settings-main-content .tabc {
+	display: none;
+	padding: 5px;
+}
+.settings-main-content .actv {
+	display: block;
+}
+.settings-navigation a{
+	text-decoration:none !important;
+}
+.settings-navigation ul li {
+	cursor: pointer;
+	color: #000;
+	font-size: 14px;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+	margin: 0;
+}
+.settings-navigation ul li:hover {
+	background: #2196F3;
+	color: #fff;
+}
+.settings-navigation ul .actv {
+	background: #686868;
+	color: #fff;
+}
+.settings-main-content hr {
+	margin: 10px 0px 10px 0px;
+}
+.settings-main-content h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	    font-size: 20px;
+}
+.settings-main-content {
+	min-height: 600px;
+}
+.settings-navigation {
+	min-height: 600px;
+}
+.select-area {
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	padding: 5px;
+	min-height: 150px;
+}
+.select-area div {
+	margin-bottom: 5px;
+}
+.col-md-12 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px
+}
+.col-md-10{
+	    width: 85%;
+    float: left;
+}
+.col-md-9{
+	    width: 80%;
+    float: left;
+}
+.col-md-8{
+	    width: 70%;
+    float: left;
+}
+.col-md-7{
+	    width: 60%;
+    float: left;
+}
+.col-md-6{
+	    width: 50%;
+    float: left;
+}
+.col-md-5{
+	    width: 40%;
+    float: left;
+}
+.col-md-4{
+	    width: 30%;
+    float: left;
+}
+.col-md-3{
+	width:20%;
+    float: left;
+}
+.col-md-2{
+	width:10%;
+    float: left;
+}
+.hellobar_deleterc{
+	color: #f00;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 8px;
+    background-color: #fff;
+	cursor:pointer;
+}
+.sch_minus{
+display: block;
+    padding: 2px;
+    margin-top: 6px;
+    background-color: #F44336;
+    border-radius: 50%;
+    color: #fff;
+}
+.sch_plus{
+        position: absolute;
+    margin-left: 29px;
+    padding: 2px;
+    margin-top: 0px;
+    line-height: 1.2;
+    background-color: #8BC34A;
+    border-radius: 50%;
+    color: #fff;
+}
+/* HELP tooltip CSS */
+.schtooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.schtooltip .schtooltiptext {
+	visibility: hidden;
+    width:200%;
+    background-color: #2196f3;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px 0;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+}
+
+.schtooltip .schtooltiptext::after {
+	content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #2196f3 transparent transparent;
+}
+.schtooltip:hover .schtooltiptext {
+    visibility: visible;
+}
